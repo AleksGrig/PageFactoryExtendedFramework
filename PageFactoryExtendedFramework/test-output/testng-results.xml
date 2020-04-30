@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-30T12:29:38Z" name="Suite" finished-at="2020-01-30T12:31:33Z" duration-ms="115580">
+    <groups>
+    </groups>
+    <test started-at="2020-01-30T12:29:38Z" name="LoginTest" finished-at="2020-01-30T12:31:00Z" duration-ms="82414">
+      <class name="com.automation.cruclub.testcases.LoginTest">
+        <test-method is-config="true" signature="setUpFramework()[pri:0, instance:com.automation.cruclub.testcases.LoginTest@62656be4]" started-at="2020-01-30T12:29:35Z" name="setUpFramework" finished-at="2020-01-30T12:29:38Z" duration-ms="2235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method signature="loginTest(java.util.HashMap)[pri:0, instance:com.automation.cruclub.testcases.LoginTest@62656be4]" started-at="2020-01-30T12:29:39Z" name="loginTest" data-provider="masterDP" finished-at="2020-01-30T12:31:00Z" duration-ms="81053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, password=Selenium@123, userName=TEST, browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.cruclub.testcases.LoginTest@62656be4]" started-at="2020-01-30T12:31:00Z" name="cleanUp" finished-at="2020-01-30T12:31:00Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.cruclub.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2020-01-30T12:29:38Z" name="SearchTest" finished-at="2020-01-30T12:31:33Z" duration-ms="115580">
+      <class name="com.automation.cruclub.testcases.SearchTest">
+        <test-method signature="searchTest(java.util.HashMap)[pri:0, instance:com.automation.cruclub.testcases.SearchTest@2438dcd]" started-at="2020-01-30T12:29:39Z" name="searchTest" data-provider="masterDP" finished-at="2020-01-30T12:31:25Z" duration-ms="106236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.util.HashMap)[pri:0, instance:com.automation.cruclub.testcases.SearchTest@2438dcd]" started-at="2020-01-30T12:29:39Z" name="searchTest" data-provider="masterDP" finished-at="2020-01-30T12:30:32Z" duration-ms="53079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.util.HashMap)[pri:0, instance:com.automation.cruclub.testcases.SearchTest@2438dcd]" started-at="2020-01-30T12:29:39Z" name="searchTest" data-provider="masterDP" finished-at="2020-01-30T12:31:32Z" duration-ms="113355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.cruclub.testcases.SearchTest@2438dcd]" started-at="2020-01-30T12:30:32Z" name="cleanUp" finished-at="2020-01-30T12:31:22Z" duration-ms="49415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.cruclub.testcases.SearchTest@2438dcd]" started-at="2020-01-30T12:31:25Z" name="cleanUp" finished-at="2020-01-30T12:31:27Z" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.automation.cruclub.testcases.SearchTest@2438dcd]" started-at="2020-01-30T12:31:32Z" name="cleanUp" finished-at="2020-01-30T12:31:33Z" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.automation.cruclub.testcases.SearchTest -->
+    </test> <!-- SearchTest -->
+  </suite> <!-- Suite -->
+</testng-results>

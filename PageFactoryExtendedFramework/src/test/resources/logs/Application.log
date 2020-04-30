@@ -1,0 +1,5 @@
+INFO    2020-01-30 15:29:35,970 [main] com.automation.cruclub.testcases.LoginTest  - Configuration file are loaded
+INFO    2020-01-30 15:29:44,905 [TestNG-PoolService-2] com.automation.cruclub.testcases.SearchTest  - Chrome browser launched
+INFO    2020-01-30 15:29:44,905 [TestNG-PoolService-0] com.automation.cruclub.testcases.LoginTest  - Chrome browser launched
+INFO    2020-01-30 15:29:44,925 [TestNG-PoolService-0] com.automation.cruclub.testcases.SearchTest  - Chrome browser launched
+INFO    2020-01-30 15:29:54,322 [TestNG-PoolService-1] com.automation.cruclub.testcases.SearchTest  - Firefox browser launched

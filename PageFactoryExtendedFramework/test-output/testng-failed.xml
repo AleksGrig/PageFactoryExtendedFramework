@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.automation.cruclub.listeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.automation.cruclub.rough.SearchTest">
+        <methods>
+          <include name="searchTest" invocation-numbers="1 2 0"/>
+          <include name="cleanUp"/>
+          <include name="setUpFramework"/>
+        </methods>
+      </class> <!-- com.automation.cruclub.rough.SearchTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
